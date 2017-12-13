@@ -1,0 +1,17 @@
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+	ssid="RPM"
+	psk="R@5p83rry"
+	priority= 2
+	key_mgmt=WPA-PSK
+}
+
+network={
+	ssid="CCI Wireless"
+	psk="letmeintoday"
+	priority=1
+	key_mgmt=WPA-PSK  
+
+}
