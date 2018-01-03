@@ -1,0 +1,7 @@
+create static interface with /etc/network/interfaces 
+
+then disable DHCP and swith to standard Debian networking:
+
+ 
+sudo systemctl disable dhcpcd
+sudo systemctl enable networking
